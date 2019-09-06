@@ -1,0 +1,608 @@
+2019-07-17 13:47:18 3184 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-07-17 13:47:18 3184 [Note] InnoDB: Uses event mutexes
+2019-07-17 13:47:18 3184 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-07-17 13:47:18 3184 [Note] InnoDB: Number of pools: 1
+2019-07-17 13:47:18 3184 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-07-17 13:47:18 3184 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-07-17 13:47:18 3184 [Note] InnoDB: Completed initialization of buffer pool
+2019-07-17 13:47:18 3184 [Note] InnoDB: The first innodb_system data file 'ibdata1' did not exist. A new tablespace will be created!
+2019-07-17 13:47:18 3184 [Note] InnoDB: Setting file '.\ibdata1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-07-17 13:47:18 3184 [Note] InnoDB: File '.\ibdata1' size is now 12 MB.
+2019-07-17 13:47:18 3184 [Note] InnoDB: Setting log file .\ib_logfile101 size to 50331648 bytes
+2019-07-17 13:47:18 3184 [Note] InnoDB: Setting log file .\ib_logfile1 size to 50331648 bytes
+2019-07-17 13:47:19 3184 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+2019-07-17 13:47:19 3184 [Note] InnoDB: New log files created, LSN=45790
+2019-07-17 13:47:19 3184 [Note] InnoDB: Doublewrite buffer not found: creating new
+2019-07-17 13:47:19 20132 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-07-17 13:47:19 20132 [Note] InnoDB: Uses event mutexes
+2019-07-17 13:47:19 20132 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-07-17 13:47:19 20132 [Note] InnoDB: Number of pools: 1
+2019-07-17 13:47:19 20132 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-07-17 13:47:19 20132 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-07-17 13:47:19 20132 [Note] InnoDB: Completed initialization of buffer pool
+2019-07-17 13:47:19 20132 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2019-07-17 13:47:19 20132 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2019-07-17 13:47:19 20132 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2019-07-17 13:47:19 3184 [Note] InnoDB: Doublewrite buffer created
+2019-07-17 13:47:19 3184 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-07-17 13:47:19 3184 [Note] InnoDB: Creating foreign key constraint system tables.
+2019-07-17 13:47:19 20132 [Note] InnoDB: Starting shutdown...
+2019-07-17 13:47:19 3184 [Note] InnoDB: Creating tablespace and datafile system tables.
+2019-07-17 13:47:19 3184 [Note] InnoDB: Creating sys_virtual system tables.
+2019-07-17 13:47:19 20132 [ERROR] Plugin 'InnoDB' init function returned error.
+2019-07-17 13:47:19 20132 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2019-07-17 13:47:19 3184 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-07-17 13:47:19 3184 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-07-17 13:47:19 3184 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-07-17 13:47:19 3184 [Note] InnoDB: Waiting for purge to start
+2019-07-17 13:47:19 20132 [Note] Plugin 'FEEDBACK' is disabled.
+2019-07-17 13:47:19 3184 [Note] InnoDB: 5.7.20 started; log sequence number 0
+2019-07-17 13:47:20 3184 [Note] Plugin 'FEEDBACK' is disabled.
+2019-07-17 13:47:23 14528 [ERROR] mysqld.exe: Table '.\mysql\help_topic' is marked as crashed and should be repaired
+2019-07-17 13:47:23 14528 [ERROR] mysqld.exe: Table 'help_topic' is marked as crashed and should be repaired
+2019-07-17 13:47:23 14528 [Warning] Checking table:   '.\mysql\help_topic'
+2019-07-17 13:47:23 14528 [ERROR] mysql.help_topic: 1 client is using or hasn't closed the table properly
+2019-07-17 13:47:23 14528 [ERROR] mysqld.exe: Table '.\mysql\help_category' is marked as crashed and should be repaired
+2019-07-17 13:47:23 14528 [ERROR] mysqld.exe: Table 'help_category' is marked as crashed and should be repaired
+2019-07-17 13:47:23 14528 [Warning] Checking table:   '.\mysql\help_category'
+2019-07-17 13:47:23 14528 [ERROR] mysql.help_category: 1 client is using or hasn't closed the table properly
+2019-07-17 13:47:23 14528 [ERROR] mysqld.exe: Table '.\mysql\help_keyword' is marked as crashed and should be repaired
+2019-07-17 13:47:23 14528 [ERROR] mysqld.exe: Table 'help_keyword' is marked as crashed and should be repaired
+2019-07-17 13:47:23 14528 [Warning] Checking table:   '.\mysql\help_keyword'
+2019-07-17 13:47:23 14528 [ERROR] mysql.help_keyword: 1 client is using or hasn't closed the table properly
+2019-07-17 13:47:23 14528 [ERROR] mysqld.exe: Table '.\mysql\help_relation' is marked as crashed and should be repaired
+2019-07-17 13:47:23 14528 [ERROR] mysqld.exe: Table 'help_relation' is marked as crashed and should be repaired
+2019-07-17 13:47:23 14528 [Warning] Checking table:   '.\mysql\help_relation'
+2019-07-17 13:47:23 14528 [ERROR] mysql.help_relation: 1 client is using or hasn't closed the table properly
+2019-07-17 13:59:50 6480 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-07-17 13:59:50 6480 [Note] InnoDB: Uses event mutexes
+2019-07-17 13:59:50 6480 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-07-17 13:59:50 6480 [Note] InnoDB: Number of pools: 1
+2019-07-17 13:59:50 6480 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-07-17 13:59:50 6480 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-07-17 13:59:50 6480 [Note] InnoDB: Completed initialization of buffer pool
+2019-07-17 13:59:51 6480 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-07-17 13:59:51 6480 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-07-17 13:59:51 6480 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-07-17 13:59:51 6480 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-07-17 13:59:51 6480 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-07-17 13:59:51 6480 [Note] InnoDB: Waiting for purge to start
+2019-07-17 13:59:51 6480 [Note] InnoDB: 5.7.20 started; log sequence number 1613159
+2019-07-17 13:59:51 12932 [Note] InnoDB: Loading buffer pool(s) from D:\workspace\test_mariadb\database\ib_buffer_pool
+2019-07-17 13:59:51 12932 [Note] InnoDB: Buffer pool(s) load completed at 190717 13:59:51
+2019-07-17 13:59:51 6480 [Note] Plugin 'FEEDBACK' is disabled.
+2019-07-17 14:27:23 23628 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-07-17 14:27:23 23628 [Note] InnoDB: Uses event mutexes
+2019-07-17 14:27:23 23628 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-07-17 14:27:23 23628 [Note] InnoDB: Number of pools: 1
+2019-07-17 14:27:23 23628 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-07-17 14:27:23 23628 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-07-17 14:27:23 23628 [Note] InnoDB: Completed initialization of buffer pool
+2019-07-17 14:27:24 23628 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-07-17 14:27:24 23628 [Note] InnoDB: Starting crash recovery from checkpoint LSN=5597592
+2019-07-17 14:27:26 23628 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-07-17 14:27:26 23628 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-07-17 14:27:26 23628 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-07-17 14:27:26 23628 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-07-17 14:27:26 23628 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-07-17 14:27:26 23628 [Note] InnoDB: Waiting for purge to start
+2019-07-17 14:27:26 23628 [Note] InnoDB: 5.7.20 started; log sequence number 5597601
+2019-07-17 14:27:26 12752 [Note] InnoDB: Loading buffer pool(s) from D:\workspace\test_mariadb\database\ib_buffer_pool
+2019-07-17 14:27:26 23628 [Note] Plugin 'FEEDBACK' is disabled.
+2019-07-17 14:27:26 12752 [Note] InnoDB: Buffer pool(s) load completed at 190717 14:27:26
+2019-07-17 14:33:18 16704 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-07-17 14:33:18 16704 [Note] InnoDB: Uses event mutexes
+2019-07-17 14:33:18 16704 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-07-17 14:33:18 16704 [Note] InnoDB: Number of pools: 1
+2019-07-17 14:33:18 16704 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-07-17 14:33:18 16704 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-07-17 14:33:18 16704 [Note] InnoDB: Completed initialization of buffer pool
+2019-07-17 14:33:18 16704 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-07-17 14:33:18 16704 [Note] InnoDB: Starting crash recovery from checkpoint LSN=5597648
+2019-07-17 14:33:20 16704 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-07-17 14:33:20 16704 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-07-17 14:33:20 16704 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-07-17 14:33:20 16704 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-07-17 14:33:20 16704 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-07-17 14:33:20 16704 [Note] InnoDB: Waiting for purge to start
+2019-07-17 14:33:20 16704 [Note] InnoDB: 5.7.20 started; log sequence number 5597657
+2019-07-17 14:33:20 20256 [Note] InnoDB: Loading buffer pool(s) from D:\workspace\test_mariadb\database\ib_buffer_pool
+2019-07-17 14:33:20 16704 [Note] Plugin 'FEEDBACK' is disabled.
+2019-07-17 14:33:20 20256 [Note] InnoDB: Buffer pool(s) load completed at 190717 14:33:20
+2019-07-17 14:47:33 18356 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-07-17 14:47:33 18356 [Note] InnoDB: Uses event mutexes
+2019-07-17 14:47:33 18356 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-07-17 14:47:33 18356 [Note] InnoDB: Number of pools: 1
+2019-07-17 14:47:33 18356 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-07-17 14:47:33 18356 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-07-17 14:47:33 18356 [Note] InnoDB: Completed initialization of buffer pool
+2019-07-17 14:47:33 18356 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-07-17 14:47:33 18356 [Note] InnoDB: Starting crash recovery from checkpoint LSN=5597711
+2019-07-17 14:47:39 18356 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-07-17 14:47:39 18356 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-07-17 14:47:39 18356 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-07-17 14:47:39 18356 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-07-17 14:47:39 18356 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-07-17 14:47:39 18356 [Note] InnoDB: Waiting for purge to start
+2019-07-17 14:47:39 18356 [Note] InnoDB: 5.7.20 started; log sequence number 5597720
+2019-07-17 14:47:39 7736 [Note] InnoDB: Loading buffer pool(s) from D:\workspace\test_mariadb\database\ib_buffer_pool
+2019-07-17 14:47:40 18356 [Note] Plugin 'FEEDBACK' is disabled.
+2019-07-17 14:47:40 7736 [Note] InnoDB: Buffer pool(s) load completed at 190717 14:47:40
+2019-07-17 15:47:31 15536 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-07-17 15:47:31 15536 [Note] InnoDB: Uses event mutexes
+2019-07-17 15:47:31 15536 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-07-17 15:47:31 15536 [Note] InnoDB: Number of pools: 1
+2019-07-17 15:47:31 15536 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-07-17 15:47:31 15536 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-07-17 15:47:31 15536 [Note] InnoDB: Completed initialization of buffer pool
+2019-07-17 15:47:31 15536 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-07-17 15:47:31 15536 [Note] InnoDB: Starting crash recovery from checkpoint LSN=5597776
+2019-07-17 15:47:32 15536 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-07-17 15:47:32 15536 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-07-17 15:47:32 15536 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-07-17 15:47:32 15536 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-07-17 15:47:32 15536 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-07-17 15:47:32 15536 [Note] InnoDB: Waiting for purge to start
+2019-07-17 15:47:32 15536 [Note] InnoDB: 5.7.20 started; log sequence number 5597785
+2019-07-17 15:47:32 11880 [Note] InnoDB: Loading buffer pool(s) from D:\workspace\test_mariadb\database\ib_buffer_pool
+2019-07-17 15:47:32 11880 [Note] InnoDB: Buffer pool(s) load completed at 190717 15:47:32
+2019-07-17 15:47:32 15536 [Note] Plugin 'FEEDBACK' is disabled.
+2019-07-17 16:09:04 14404 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-07-17 16:09:04 14404 [Note] InnoDB: Uses event mutexes
+2019-07-17 16:09:04 14404 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-07-17 16:09:04 14404 [Note] InnoDB: Number of pools: 1
+2019-07-17 16:09:04 14404 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-07-17 16:09:04 14404 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-07-17 16:09:04 14404 [Note] InnoDB: Completed initialization of buffer pool
+2019-07-17 16:09:04 14404 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-07-17 16:09:04 14404 [Note] InnoDB: Starting crash recovery from checkpoint LSN=6236803
+2019-07-17 16:09:07 14404 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-07-17 16:09:07 14404 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-07-17 16:09:07 14404 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-07-17 16:09:07 14404 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-07-17 16:09:07 14404 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-07-17 16:09:07 14404 [Note] InnoDB: Waiting for purge to start
+2019-07-17 16:09:07 14404 [Note] InnoDB: 5.7.20 started; log sequence number 6236812
+2019-07-17 16:09:07 15724 [Note] InnoDB: Loading buffer pool(s) from D:\workspace\test_mariadb\database\ib_buffer_pool
+2019-07-17 16:09:07 14404 [Note] Plugin 'FEEDBACK' is disabled.
+2019-07-17 16:09:07 15724 [Note] InnoDB: Buffer pool(s) load completed at 190717 16:09:07
+2019-07-17 16:13:19 23060 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-07-17 16:13:19 23060 [Note] InnoDB: Uses event mutexes
+2019-07-17 16:13:19 23060 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-07-17 16:13:19 23060 [Note] InnoDB: Number of pools: 1
+2019-07-17 16:13:19 23060 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-07-17 16:13:19 23060 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-07-17 16:13:19 23060 [Note] InnoDB: Completed initialization of buffer pool
+2019-07-17 16:13:19 23060 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-07-17 16:13:19 23060 [Note] InnoDB: Starting crash recovery from checkpoint LSN=6236850
+2019-07-17 16:13:20 23060 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-07-17 16:13:20 23060 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-07-17 16:13:20 23060 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-07-17 16:13:20 23060 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-07-17 16:13:20 23060 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-07-17 16:13:20 23060 [Note] InnoDB: Waiting for purge to start
+2019-07-17 16:13:20 23060 [Note] InnoDB: 5.7.20 started; log sequence number 6236859
+2019-07-17 16:13:20 3412 [Note] InnoDB: Loading buffer pool(s) from D:\workspace\test_mariadb\database\ib_buffer_pool
+2019-07-17 16:13:21 3412 [Note] InnoDB: Buffer pool(s) load completed at 190717 16:13:21
+2019-07-17 16:13:21 23060 [Note] Plugin 'FEEDBACK' is disabled.
+2019-07-17 16:17:14 10136 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-07-17 16:17:14 10136 [Note] InnoDB: Uses event mutexes
+2019-07-17 16:17:14 10136 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-07-17 16:17:14 10136 [Note] InnoDB: Number of pools: 1
+2019-07-17 16:17:14 10136 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-07-17 16:17:14 10136 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-07-17 16:17:14 10136 [Note] InnoDB: Completed initialization of buffer pool
+2019-07-17 16:17:14 10136 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-07-17 16:17:14 10136 [Note] InnoDB: Starting crash recovery from checkpoint LSN=6236897
+2019-07-17 16:17:16 10136 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-07-17 16:17:16 10136 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-07-17 16:17:16 10136 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-07-17 16:17:16 10136 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-07-17 16:17:16 10136 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-07-17 16:17:16 10136 [Note] InnoDB: Waiting for purge to start
+2019-07-17 16:17:16 10136 [Note] InnoDB: 5.7.20 started; log sequence number 6236906
+2019-07-17 16:17:16 16880 [Note] InnoDB: Loading buffer pool(s) from D:\workspace\test_mariadb\database\ib_buffer_pool
+2019-07-17 16:17:16 16880 [Note] InnoDB: Buffer pool(s) load completed at 190717 16:17:16
+2019-07-17 16:17:16 10136 [Note] Plugin 'FEEDBACK' is disabled.
+2019-07-17 16:19:24 24428 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-07-17 16:19:24 24428 [Note] InnoDB: Uses event mutexes
+2019-07-17 16:19:24 24428 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-07-17 16:19:24 24428 [Note] InnoDB: Number of pools: 1
+2019-07-17 16:19:24 24428 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-07-17 16:19:24 24428 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-07-17 16:19:24 24428 [Note] InnoDB: Completed initialization of buffer pool
+2019-07-17 16:19:24 24428 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-07-17 16:19:25 24428 [Note] InnoDB: Upgrading redo log: 2*50331648 bytes; LSN=3517084
+2019-07-17 16:19:25 24428 [Note] InnoDB: Starting to delete and rewrite log files.
+2019-07-17 16:19:25 24428 [Note] InnoDB: Setting log file .\ib_logfile101 size to 50331648 bytes
+2019-07-17 16:19:25 24428 [Note] InnoDB: Setting log file .\ib_logfile1 size to 50331648 bytes
+2019-07-17 16:19:25 24428 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+2019-07-17 16:19:25 24428 [Note] InnoDB: New log files created, LSN=3517084
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\address.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/address`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`address` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\applicant.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/applicant`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`applicant` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\beneficiary.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/beneficiary`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`beneficiary` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\category.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/category`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`category` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\concession.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/concession`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`concession` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\concession_duration.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/concession_duration`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`concession_duration` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\concession_historique.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/concession_historique`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`concession_historique` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\concession_surface.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/concession_surface`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`concession_surface` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\concession_type.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/concession_type`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`concession_type` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\concessionaire.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/concessionaire`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`concessionaire` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\configuration.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/configuration`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`configuration` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\contact.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/contact`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`contact` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\deceased.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/deceased`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`deceased` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\deceased_applicant_link.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/deceased_applicant_link`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`deceased_applicant_link` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\deceased_concessionaire_link.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/deceased_concessionaire_link`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`deceased_concessionaire_link` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\deceased_historique.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/deceased_historique`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`deceased_historique` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\deceased_state.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/deceased_state`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`deceased_state` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\dest_crematorium.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/dest_crematorium`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`dest_crematorium` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\dest_municipality.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/dest_municipality`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`dest_municipality` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\document.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/document`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`document` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\family.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/family`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`family` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\filiation.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/filiation`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`filiation` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\grave.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/grave`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`grave` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\grave_document.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/grave_document`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`grave_document` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\grave_historique.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/grave_historique`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`grave_historique` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\grave_image.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/grave_image`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`grave_image` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\grave_sepulture.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/grave_sepulture`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`grave_sepulture` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\grave_type.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/grave_type`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`grave_type` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\graves_area.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/graves_area`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`graves_area` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\graveyard.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/graveyard`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`graveyard` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\graveyard_area.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/graveyard_area`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`graveyard_area` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\historique.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/historique`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`historique` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\mimetype.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/mimetype`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`mimetype` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\municipality.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/municipality`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`municipality` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\municipality_concession_deliberation.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/municipality_concession_deliberation`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`municipality_concession_deliberation` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\municipality_concession_duration.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/municipality_concession_duration`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`municipality_concession_duration` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\municipality_concession_price.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/municipality_concession_price`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`municipality_concession_price` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\municipality_concession_surface.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/municipality_concession_surface`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`municipality_concession_surface` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\municipality_configuration.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/municipality_configuration`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`municipality_configuration` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\municipality_document.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/municipality_document`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`municipality_document` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\operation_administrative.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/operation_administrative`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`operation_administrative` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\operation_administrative_document.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/operation_administrative_document`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`operation_administrative_document` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\operation_administrative_sale_concession.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/operation_administrative_sale_concession`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`operation_administrative_sale_concession` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\operation_etat.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/operation_etat`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`operation_etat` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\operation_funeral.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/operation_funeral`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`operation_funeral` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\operation_funeral_bury.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/operation_funeral_bury`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`operation_funeral_bury` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\operation_funeral_document.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/operation_funeral_document`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`operation_funeral_document` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\operation_funeral_exhume.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/operation_funeral_exhume`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`operation_funeral_exhume` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\operation_funeral_reduce.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/operation_funeral_reduce`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`operation_funeral_reduce` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\operation_technique.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/operation_technique`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`operation_technique` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\permissions.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/permissions`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`permissions` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\person.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/person`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`person` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\provider.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/provider`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`provider` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\resource.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/resource`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`resource` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\resource_categorie.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/resource_categorie`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`resource_categorie` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\resource_tag.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/resource_tag`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`resource_tag` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\role.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/role`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`role` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\role_permission.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/role_permission`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`role_permission` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\role_role.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/role_role`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`role_role` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\saleconcession_beneficiary.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/saleconcession_beneficiary`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`saleconcession_beneficiary` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\tag.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/tag`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`tag` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\user.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/user`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`user` because it could not be opened.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Cannot open datafile for read-only: '.\finalys\user_role.ibd' OS error: 203
+2019-07-17 16:19:25 24428 [ERROR] InnoDB: Could not find a valid tablespace file for `finalys/user_role`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2019-07-17 16:19:25 24428 [Warning] InnoDB: Ignoring tablespace for `finalys`.`user_role` because it could not be opened.
+2019-07-17 16:19:25 24428 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-07-17 16:19:25 24428 [Note] InnoDB: Creating sys_virtual system tables.
+2019-07-17 16:19:25 24428 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-07-17 16:19:25 24428 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-07-17 16:19:25 24428 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-07-17 16:19:25 24428 [Note] InnoDB: Waiting for purge to start
+2019-07-17 16:19:25 24428 [Note] InnoDB: 5.7.20 started; log sequence number 0
+2019-07-17 16:19:25 22836 [Note] InnoDB: Loading buffer pool(s) from D:\workspace\test_mariadb\database\ib_buffer_pool
+2019-07-17 16:19:25 22836 [Note] InnoDB: Buffer pool(s) load completed at 190717 16:19:25
+2019-07-17 16:19:25 24428 [Note] Plugin 'FEEDBACK' is disabled.
